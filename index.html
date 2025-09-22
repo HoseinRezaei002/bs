@@ -17,26 +17,58 @@
     <header>
         <div id="pin" class="text-black text-center p-2">Resize the browser window to see the responsive effect</div>
         <div class="text-white text-center p-5">
-            <h2>My Website</h2>
+            <h1>My Website</h1>
             <p>with a flexible layout</p>
         </div>
 
     </header>
-    <nav class="d-flex p-1 " id="firstSection"><a class="col-md1 p-3 text-white text-decoration-none" href="#">Link</a>
-        <a class="col-md1 p-3 text-white text-decoration-none" href="#">Link</a>
-        <a class="col-md1 p-3 text-white text-decoration-none" href="#">Link</a>
-        <a class="col-md1 p-3 text-white text-decoration-none" href="#">Link</a>
+    <nav>
+        <ul class="d-flex ">
+            <li class="col-md1 p-3 text-white">Link</li>
+            <li class="col-md1 p-3 text-white">Link</li>
+            <li class="col-md1 p-3 text-white">Link</li>
+            <li class="col-md1 p-3 text-white">Link</li>
+        </ul>
+     
     </nav>
-    <main>
-        <section>
-            <div id="firstDiv" class="d-block">
+    <main id="main" >
+        <section id="firstSection" class="col-md-4">
+            <div id="firstDiv" class="d-block m-5">
                 <h2>About me</h2>
-                <p >Photo of me</p>
+                <p>Photo of me</p>
                 <div>image</div>
                 <span>Some ipsum dolor sit ame</span>
             </div>
+            <div id="secondDiv " class="m-5">
+                <h3>More Text</h3>
+                <p>lorem ipsum dolor sit ame</p>
+                <div class="imgSide">image</div>
+                <div class="imgSide">image</div>
+                <div class="imgSide">image</div>
+            </div>
+        </section>
+        <section class="col-md-8 bg-white" id="secondSection">
+            <div id="firsteDivRight" class="m-5">
+                <h2 id="moboBug">TITLE HEADING</h2>
+                <p>Title describtion,Dec7,2017</p>
+                <div id="imgTow">image</div>
+                <span>Some text <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus repellendus quo
+                    molestias adipisci nulla earum! Fugiat, omnis pariatur reprehenderit asperiores sint, totam odit est
+                    iste ad amet quas adipisci.</span>
+            </div>
+            <div id="secondDivRight" class="m-5">
+                <h2>TITLE HEADING</h2>
+                <p>Title describtion,Dec7,2017</p>
+                <div>image</div>
+                <span>Some text <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus repellendus quo
+                    molestias adipisci nulla earum! Fugiat, omnis pariatur reprehenderit asperiores sint, totam odit est
+                    iste ad amet quas adipisci.</span>
+            </div>
         </section>
     </main>
+    <footer class="p-7"><h2>Footer</h2></footer>
 </body>
 
 </html>
