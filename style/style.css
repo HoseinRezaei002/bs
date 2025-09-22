@@ -1,0 +1,126 @@
+#pin {
+    background-color: yellow;
+}
+
+header {
+    background-color: rgb(45, 194, 144);
+}
+
+main {
+    background-color: rgb(172, 172, 172);
+    display: flex;
+}
+
+nav ul{
+    background-color: rgb(48, 48, 48);
+}
+
+nav ul li{
+    transition: 0.4s;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    transition: 0.4s;
+}
+li{list-style-type: none;}
+
+#firstSection {
+    background-color: rgb(201, 201, 201);
+}
+
+#firstDiv p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#firstDiv div {
+    background-color: rgb(160, 160, 160);
+    padding: 10px 0px 150px 10px;
+    width: 350px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#firstDiv span {
+    font-size: 20px;
+}
+
+#secondDiv h2 {
+    margin-top: 30p;
+}
+
+#secondDiv p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.imgSide {
+    width: 350px;
+    background-color: rgb(160, 160, 160);
+    margin-top: 20px;
+    padding: 20px 0px 20px 10px;
+    font-size: 18px;
+}
+
+#firsteDivRight p {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+#imgTow {
+    background-color: rgb(160, 160, 160);
+    padding: 10px 0px 150px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#secondSection {
+    margin-top: 0px;
+    background-color: white;
+}
+
+#firsteDivRight span {
+    margin-top: 20px;
+}
+
+#secondDivRight div {
+    background-color: rgb(160, 160, 160);
+    padding: 10px 0px 150px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+@media(max-width:700px) {
+    header {
+        width: 100%;
+    }
+
+    main {
+        display: block;
+    }
+
+    #moboBug {
+        padding-top: 30px;
+    }
+
+    #secondSection {
+    margin-top: -48px;
+        background-color: white;
+    }
+
+    #firstDiv div {
+        width: 90%;
+    }
+
+    .imgSide {
+        width: 90%;
+    }
+}
